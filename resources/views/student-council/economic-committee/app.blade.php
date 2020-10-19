@@ -91,7 +91,7 @@
                                         @lang('checkout.allocated_balance')
                                         @if($semester->isCurrent())
                                         @can('administrate', \App\Models\Checkout::studentsCouncil())
-                                        <a href="{{ route('economic_committee.workshop_balance') }}" class="btn-floating btn-small grey waves-effect">
+                                        <a href="{{ route('economic_committee.workshop_balance') }}" class="btn-floating grey waves-effect">
                                             <i class="material-icons">refresh</i>
                                         </a>
                                         @endif
